@@ -15,4 +15,18 @@ func main() {
 	slice4 := []int{10, 20, 30}
 	fmt.Println(slice4)
 
+	slice5 := []string{99: ""}
+	fmt.Println(slice5)
+
+	array := [3]int{10, 20, 30}
+	fmt.Println(array)
+	slice6 := []int{10, 20, 30}
+	fmt.Println(slice6)
+
+	//var slice7 []int // nil 슬라이스 생성
+	slice8 := make([]int, 0)
+	fmt.Println(slice8)
+
+	slice9 := []int{}
+	fmt.Println(slice9)
 }
